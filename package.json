@@ -1,0 +1,26 @@
+{
+  "name": "newkitchenai-mcp",
+  "version": "1.0.0",
+  "description": "Read-only kitchen styles, materials, AI design examples and pricing for NewKitchenAI.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://newkitchenai.com/",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "start:http": "node src/index.mjs --http",
+    "test": "node --test --test-concurrency=1",
+    "check": "node --check src/index.mjs && node --check src/server.mjs && node --check src/http.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "@modelcontextprotocol/node": "2.1.2",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.4.0"
+  }
+}

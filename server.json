@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.newkitchenai/kitchen-design",
+  "title": "NewKitchenAI — Kitchen Design Reference",
+  "description": "Read-only kitchen styles, materials, AI design examples and pricing from NewKitchenAI.",
+  "version": "1.0.0",
+  "websiteUrl": "https://newkitchenai.com/",
+  "remotes": [{ "type": "streamable-http", "url": "https://newkitchenai.com/mcp" }]
+}

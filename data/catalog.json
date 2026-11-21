@@ -1,0 +1,193 @@
+{
+  "updatedAt": "2026-11-21",
+  "website": "https://newkitchenai.com",
+  "creditsPerDesign": 2,
+  "packs": [
+    {
+      "id": "start",
+      "name": "Start",
+      "credits": 36,
+      "priceUsd": 9.99,
+      "designs": 18
+    },
+    {
+      "id": "basic",
+      "name": "Basic",
+      "credits": 100,
+      "priceUsd": 19.99,
+      "designs": 50
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "credits": 300,
+      "priceUsd": 39.99,
+      "designs": 150
+    }
+  ],
+  "styles": [
+    {
+      "id": "transitional",
+      "name": "Transitional",
+      "description": "Warm-white shakers, quartz counters and brushed nickel.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/transitional.webp"
+    },
+    {
+      "id": "traditional",
+      "name": "Traditional",
+      "description": "Cherry inset cabinets, marble and classic brass.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/traditional.webp"
+    },
+    {
+      "id": "modern",
+      "name": "Modern",
+      "description": "Charcoal flat panels, waterfall quartz and clean geometry.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/modern.webp"
+    },
+    {
+      "id": "contemporary",
+      "name": "Contemporary",
+      "description": "Taupe cabinetry, a green island and sculptural lighting.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/contemporary.webp"
+    },
+    {
+      "id": "farmhouse",
+      "name": "Modern Farmhouse",
+      "description": "White shakers, an oak island and matte black accents.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/farmhouse.webp"
+    },
+    {
+      "id": "mid-century-modern",
+      "name": "Mid-Century Modern",
+      "description": "Walnut, olive tile, terrazzo and globe pendants.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/mid-century-modern.webp"
+    },
+    {
+      "id": "organic-modern",
+      "name": "Organic Modern",
+      "description": "Natural oak, creamy stone and soft organic shapes.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/organic-modern.webp"
+    },
+    {
+      "id": "coastal",
+      "name": "Coastal",
+      "description": "White cabinetry, a sea-glass island and airy woven textures.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/coastal.webp"
+    },
+    {
+      "id": "scandinavian",
+      "name": "Scandinavian",
+      "description": "Pale ash, white surfaces and practical Nordic simplicity.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/scandinavian.webp"
+    },
+    {
+      "id": "japandi",
+      "name": "Japandi",
+      "description": "Warm oak, quiet stone and handmade natural textures.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/japandi.webp"
+    },
+    {
+      "id": "mediterranean",
+      "name": "Mediterranean",
+      "description": "Warm plaster, terracotta and hand-painted tile.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/mediterranean.webp"
+    },
+    {
+      "id": "industrial",
+      "name": "Industrial",
+      "description": "Steel, brick, concrete and dark timber.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/industrial.webp"
+    },
+    {
+      "id": "french-country",
+      "name": "French Country",
+      "description": "Cream cabinet fronts, aged brass and warm limestone.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/french-country.webp"
+    },
+    {
+      "id": "rustic",
+      "name": "Rustic",
+      "description": "Knotty dark wood, rough stone and black iron.",
+      "previewUrl": "https://newkitchenai.com/styles/generated/rustic.webp"
+    }
+  ],
+  "materials": [
+    {
+      "id": "cabinets",
+      "label": "Cabinets",
+      "options": [
+        "Wood",
+        "Glossy Lacquer",
+        "Matte Lacquer",
+        "Laminate",
+        "Brushed Metal",
+        "Glass Front"
+      ]
+    },
+    {
+      "id": "counters",
+      "label": "Counters",
+      "options": [
+        "Calacatta Marble",
+        "White Quartz",
+        "Sintered Slab",
+        "Granite",
+        "Butcher Block",
+        "Stainless Steel",
+        "Terrazzo",
+        "Concrete"
+      ]
+    },
+    {
+      "id": "backsplash",
+      "label": "Backsplash",
+      "options": [
+        "Subway Tile",
+        "Mosaic",
+        "Marble Slab",
+        "Fish-scale Tile",
+        "Patterned Tile",
+        "Metal Tile"
+      ]
+    },
+    {
+      "id": "floor",
+      "label": "Floor",
+      "options": [
+        "Hardwood",
+        "Wood-look Tile",
+        "Terrazzo",
+        "Natural Stone",
+        "Microcement"
+      ]
+    },
+    {
+      "id": "lighting",
+      "label": "Lighting",
+      "options": [
+        "Natural Daylight",
+        "Cool White Light",
+        "Ambient Evening",
+        "Golden Hour",
+        "Directional Spotlight",
+        "Warm Cozy Light"
+      ]
+    },
+    {
+      "id": "elements",
+      "label": "Kitchen Elements",
+      "options": [
+        "Cabinetry",
+        "Countertop",
+        "Kitchen Island",
+        "Sink",
+        "Cooktop",
+        "Oven",
+        "Range Hood",
+        "Refrigerator",
+        "Dishwasher",
+        "Plants"
+      ]
+    }
+  ]
+}
