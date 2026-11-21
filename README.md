@@ -1,5 +1,7 @@
 # NewKitchenAI MCP
 
+[![mcptry](https://mcptry.com/badge/com.newkitchenai/kitchen-design)](https://mcptry.com/servers/com.newkitchenai/kitchen-design)
+
 Read-only kitchen styles, materials, AI design examples and pricing for [NewKitchenAI](https://newkitchenai.com/), a photo-based **AI kitchen design tool**.
 
 [Website](https://newkitchenai.com/) · [Design your kitchen](https://newkitchenai.com/kitchen-design) · [Before & after examples](https://newkitchenai.com/kitchen-remodel-before-after) · [Pricing](https://newkitchenai.com/pricing) · [MCP documentation](https://newkitchenai.com/mcp/docs)
