@@ -1,11 +1,25 @@
 {
   "name": "newkitchenai-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read-only kitchen styles, materials, AI design examples and pricing for NewKitchenAI.",
   "type": "module",
   "private": true,
   "license": "MIT",
   "homepage": "https://newkitchenai.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weiwosuoai/newkitchenai-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weiwosuoai/newkitchenai-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "ai-kitchen-design",
+    "kitchen-design",
+    "interior-design"
+  ],
   "engines": {
     "node": ">=22"
   },

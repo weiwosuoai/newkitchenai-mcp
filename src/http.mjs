@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import { NodeStreamableHTTPServerTransport, hostHeaderValidation, originValidation } from '@modelcontextprotocol/node';
 import { createMcpServer } from './server.mjs';
 import { createPricingReader } from './pricing.mjs';
+import { version } from './catalog.mjs';
 
 export function createHttpServer({ readPricing = createPricingReader(), registryProof = process.env.MCP_REGISTRY_PROOF || '', rateLimit = 180 } = {}) {
   const validateHost = hostHeaderValidation(['newkitchenai.com', 'localhost', '127.0.0.1', '[::1]']);
@@ -13,7 +14,7 @@ export function createHttpServer({ readPricing = createPricingReader(), registry
     res.setHeader('X-Content-Type-Options', 'nosniff');
     if (!validateHost(req, res) || !validateOrigin(req, res)) return;
     const route = new URL(req.url, 'http://localhost').pathname;
-    if (route === '/mcp/health' && req.method === 'GET') return json(res, 200, { status: 'ok', version: '1.0.0', readOnly: true });
+    if (route === '/mcp/health' && req.method === 'GET') return json(res, 200, { status: 'ok', version, readOnly: true });
     if (route === '/.well-known/mcp-registry-auth' && req.method === 'GET' && registryProof) {
       res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'public, max-age=300' }); res.end(registryProof + '\n'); return;
     }

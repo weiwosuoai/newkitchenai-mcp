@@ -4,6 +4,8 @@ Read-only kitchen styles, materials, AI design examples and pricing for [NewKitc
 
 [Website](https://newkitchenai.com/) · [Design your kitchen](https://newkitchenai.com/kitchen-design) · [Before & after examples](https://newkitchenai.com/kitchen-remodel-before-after) · [Pricing](https://newkitchenai.com/pricing) · [MCP documentation](https://newkitchenai.com/mcp/docs)
 
+Official source: [weiwosuoai/newkitchenai-mcp](https://github.com/weiwosuoai/newkitchenai-mcp). Registry name: `com.newkitchenai/kitchen-design`.
+
 ## What it does
 
 Use this MCP to look up kitchen styles and finish options, find examples, and understand NewKitchenAI's prices and limitations from an MCP-compatible assistant.

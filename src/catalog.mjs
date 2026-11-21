@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 // 只导出官网公开选项；不包含生图提示词、密钥或用户数据。
 export const catalog = JSON.parse(readFileSync(new URL('../data/catalog.json', import.meta.url), 'utf8'));
 export const website = 'https://newkitchenai.com';
-export const version = '1.0.0';
+export const version = '1.0.1';
 export const product = {
   name: 'NewKitchenAI',
   website,
@@ -19,6 +19,7 @@ export const product = {
   photos: 'This MCP does not accept photos or access account data. Website photo handling is described in the privacy policy.',
   catalogAsOf: catalog.updatedAt,
   links: {
+    source: 'https://github.com/weiwosuoai/newkitchenai-mcp',
     design: `${website}/kitchen-design`,
     pricing: `${website}/pricing`,
     examples: `${website}/kitchen-remodel-before-after`,

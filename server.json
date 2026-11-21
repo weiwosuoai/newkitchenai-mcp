@@ -3,7 +3,8 @@
   "name": "com.newkitchenai/kitchen-design",
   "title": "NewKitchenAI — Kitchen Design Reference",
   "description": "Read-only kitchen styles, materials, AI design examples and pricing from NewKitchenAI.",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": { "url": "https://github.com/weiwosuoai/newkitchenai-mcp", "source": "github" },
   "websiteUrl": "https://newkitchenai.com/",
   "remotes": [{ "type": "streamable-http", "url": "https://newkitchenai.com/mcp" }]
 }

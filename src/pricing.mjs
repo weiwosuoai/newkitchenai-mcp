@@ -1,4 +1,4 @@
-import { catalog, website } from './catalog.mjs';
+import { catalog, version, website } from './catalog.mjs';
 
 export function createPricingReader({ fetchImpl = fetch, now = Date.now } = {}) {
   let cached;
@@ -13,7 +13,7 @@ export function createPricingReader({ fetchImpl = fetch, now = Date.now } = {}) 
         const response = await fetchImpl(`${website}/pricing.md`, {
           signal: AbortSignal.timeout(6000),
           redirect: 'error',
-          headers: { Accept: 'text/markdown', 'User-Agent': 'NewKitchenAI-MCP/1.0.0' },
+          headers: { Accept: 'text/markdown', 'User-Agent': `NewKitchenAI-MCP/${version}` },
         });
         if (!response.ok || Number(response.headers.get('content-length')) > 80000) throw new Error('价格读取失败');
         const reader = response.body.getReader();
