@@ -5,6 +5,13 @@
 [![Glama connector](https://glama.ai/mcp/connectors/com.newkitchenai/kitchen-design/badges/score.svg)](https://glama.ai/mcp/connectors/com.newkitchenai/kitchen-design)
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/weiwosuoai/newkitchenai-mcp)
 [![M8ven Score](https://m8ven.ai/badge/mcp/weiwosuoai/newkitchenai-mcp)](https://m8ven.ai/mcp/weiwosuoai/newkitchenai-mcp?s=readme)
+[![Featured on OpenLaunch](https://openlaunch.co/badge.webp)](https://openlaunch.co)
+[![OpenHunts Club Member](https://cdn.openhunts.com/badges/club.webp)](https://openhunts.com)
+[![Featured on Twelve Tools](https://twelve.tools/badge0-light.svg)](https://twelve.tools)
+[![Fazier badge](https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light)](https://fazier.com)
+[![Good AI Tools](https://goodaitools.com/assets/images/badge.png)](https://goodaitools.com)
+[![Featured on ToolPilot](https://www.toolpilot.ai/cdn/shop/files/f-w_690x151_crop_center.png)](https://www.toolpilot.ai)
+[NewTools.site](https://newtools.site)
 
 Read-only kitchen styles, materials, AI design examples and pricing for [NewKitchenAI](https://newkitchenai.com/), a photo-based **AI kitchen design tool**.
 
