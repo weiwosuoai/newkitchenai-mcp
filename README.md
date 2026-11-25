@@ -3,6 +3,8 @@
 [![mcptry](https://mcptry.com/badge/com.newkitchenai/kitchen-design)](https://mcptry.com/servers/com.newkitchenai/kitchen-design)
 [![Glama](https://glama.ai/mcp/servers/@weiwosuoai/newkitchenai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@weiwosuoai/newkitchenai-mcp)
 [![Glama connector](https://glama.ai/mcp/connectors/com.newkitchenai/kitchen-design/badges/score.svg)](https://glama.ai/mcp/connectors/com.newkitchenai/kitchen-design)
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/weiwosuoai/newkitchenai-mcp)
+[![M8ven Score](https://m8ven.ai/badge/mcp/weiwosuoai/newkitchenai-mcp)](https://m8ven.ai/mcp/weiwosuoai/newkitchenai-mcp?s=readme)
 
 Read-only kitchen styles, materials, AI design examples and pricing for [NewKitchenAI](https://newkitchenai.com/), a photo-based **AI kitchen design tool**.
 
