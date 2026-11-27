@@ -4,7 +4,7 @@
 [![Glama](https://glama.ai/mcp/servers/@weiwosuoai/newkitchenai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@weiwosuoai/newkitchenai-mcp)
 [![Glama connector](https://glama.ai/mcp/connectors/com.newkitchenai/kitchen-design/badges/score.svg)](https://glama.ai/mcp/connectors/com.newkitchenai/kitchen-design)
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/weiwosuoai/newkitchenai-mcp)
-[![M8ven Score](https://m8ven.ai/badge/mcp/weiwosuoai/newkitchenai-mcp)](https://m8ven.ai/mcp/weiwosuoai/newkitchenai-mcp?s=readme)
+[![M8ven Score](https://m8ven.ai/badge/mcp/weiwosuoai-newkitchenai-mcp-swncku?v=f3c0fd24708da635f54ac96f840ab7ee)](https://m8ven.ai/mcp/weiwosuoai-newkitchenai-mcp-swncku?s=readme)
 [![Featured on OpenLaunch](https://openlaunch.co/badge.webp)](https://openlaunch.co)
 [![OpenHunts Club Member](https://cdn.openhunts.com/badges/club.webp)](https://openhunts.com)
 [![Featured on Twelve Tools](https://twelve.tools/badge0-light.svg)](https://twelve.tools)
