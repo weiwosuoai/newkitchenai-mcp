@@ -35,6 +35,7 @@ export function createPricingReader({ fetchImpl = fetch, now = Date.now } = {}) 
           source: 'snapshot', asOf: catalog.updatedAt, url: `${website}/pricing`,
           note: 'The live pricing page is temporarily unavailable. This is a dated snapshot; verify current prices and taxes at checkout.',
           currency: 'USD', packs: catalog.packs, creditsPerDesign: catalog.creditsPerDesign,
+          generationPolicy: catalog.generationPolicy,
         };
         expiresAt = now() + 60000;
       }

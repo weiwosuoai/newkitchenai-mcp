@@ -189,5 +189,15 @@
         "Plants"
       ]
     }
-  ]
+  ],
+  "generationPolicy": {
+    "asOf": "2026-11-28",
+    "signupCredits": 4,
+    "freePreviewDesigns": 2,
+    "freeOutputResolution": "1K",
+    "freePreviewWatermarked": true,
+    "paidOutputResolution": "2K",
+    "paidOutputWatermarked": false,
+    "dailyFreeCredits": 0
+  }
 }

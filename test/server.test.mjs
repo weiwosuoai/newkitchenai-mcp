@@ -24,7 +24,14 @@ test('协议提供五个只读工具，公开目录不包含生成提示词或�
     assert.doesNotMatch(JSON.stringify(styles), /api_key|private.key|"prompt"|seedream|sunburst/i);
     const info = await client.callTool({ name: 'get_product_info', arguments: {} });
     assert.equal(info.structuredContent.generationAvailableThroughMcp, false);
-    assert.equal(info.structuredContent.ownPhotoGenerationIsFree, false);
+    assert.equal(info.structuredContent.ownPhotoGenerationIsFree, true);
+    assert.equal(info.structuredContent.signupCredits, 4);
+    assert.equal(info.structuredContent.freePreviewDesigns, 2);
+    assert.equal(info.structuredContent.freeOutputResolution, '1K');
+    assert.equal(info.structuredContent.paidOutputResolution, '2K');
+    assert.equal(info.structuredContent.freePreviewWatermarked, true);
+    assert.equal(info.structuredContent.dailyFreeCredits, 0);
+    assert.doesNotMatch(info.structuredContent.websiteRequirements, /purchased credits are required|walkthrough/);
     const resources = await client.listResources();
     assert.ok(resources.resources.some(r => r.uri === 'newkitchenai://catalog'));
     const resource = await client.readResource({ uri: 'newkitchenai://catalog' });
@@ -56,6 +63,10 @@ test('价格只读取固定官网，缓存并发请求，失联时明确返回�
   assert.equal(fallback.source, 'snapshot');
   assert.equal(fallback.asOf, '2026-11-21');
   assert.match(fallback.note, /checkout/i);
+  assert.equal(fallback.generationPolicy.signupCredits, 4);
+  assert.equal(fallback.generationPolicy.freePreviewDesigns, 2);
+  assert.equal(fallback.generationPolicy.freeOutputResolution, '1K');
+  assert.equal(fallback.generationPolicy.paidOutputResolution, '2K');
 });
 
 test('HTTP 可以真实握手和调用，拒绝恶意 Host、Origin、超大请求和写入路径', async () => {
@@ -85,6 +96,10 @@ test('HTTP 可以真实握手和调用，拒绝恶意 Host、Origin、超大请�
     assert.ok((await legacy.json()).result.serverInfo.name.includes('newkitchenai'));
     const docs = await fetch(base + '/mcp/docs');
     assert.equal(docs.status, 200);
-    assert.match(await docs.text(), /https:\/\/newkitchenai.com\//);
+    const docsText = await docs.text();
+    assert.match(docsText, /https:\/\/newkitchenai.com\//);
+    assert.match(docsText, /4 signup credits/);
+    assert.match(docsText, /2 free 1K watermarked previews/);
+    assert.doesNotMatch(docsText, /Your own designs require Google sign-in and purchased credits/);
   } finally { await client.close(); server.closeAllConnections(); await new Promise(resolve => server.close(resolve)); }
 });

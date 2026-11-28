@@ -23,7 +23,7 @@ Official source: [weiwosuoai/newkitchenai-mcp](https://github.com/weiwosuoai/new
 
 Use this MCP to look up kitchen styles and finish options, find examples, and understand NewKitchenAI's prices and limitations from an MCP-compatible assistant.
 
-It **does not generate or edit images**, accept photos, access accounts, buy credits or spend your balance. To generate your own kitchen design, use the [website tool](https://newkitchenai.com/kitchen-design). Website generation requires Google sign-in and purchased credits; the free preset walkthrough uses existing examples.
+It **does not generate or edit images**, accept photos, access accounts, buy credits or spend your balance. To generate your own kitchen design, use the [website tool](https://newkitchenai.com/kitchen-design). Website generation requires Google sign-in. New accounts receive 4 signup credits for 2 free 1K watermarked previews of their own kitchen, with no card required. Each successful design or edit uses 2 credits. Buy credits to continue after the signup allowance; new designs after a purchase use 2K with watermark-free downloads. There is no daily free allowance.
 
 ## Connect to the hosted MCP
 
@@ -98,6 +98,7 @@ For stdio, configure your client to run `node` with the absolute path to `src/in
 ## Data freshness and privacy
 
 - Public styles and options are a snapshot dated **2026-11-21**, exported from the website's purchasing and style configuration. Private generation prompts are not included.
+- Free-preview policy is dated **2026-11-28** and included in product facts and fallback pricing: signup allowance is one-time, not unlimited free use.
 - Pricing is fetched only from [the official Markdown pricing page](https://newkitchenai.com/pricing.md), with a one-hour cache. If unavailable, a snapshot is returned with `source: "snapshot"`, its date and a warning to verify checkout prices.
 - Local stdio pricing requests connect to NewKitchenAI. Hosted HTTP use sends protocol requests to our server; infrastructure may record connection metadata such as IP, path and status. The service does not store tool argument bodies or use tracking cookies.
 - Do not send personal photos or secrets to this MCP. See the website's [privacy policy](https://newkitchenai.com/privacy-policy) and [terms](https://newkitchenai.com/terms-of-service).
